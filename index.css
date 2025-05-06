@@ -1,4 +1,6 @@
-
+* {
+    font-family: 'Times New Roman', serif;
+}
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -60,8 +62,8 @@
     color: #324973;
         }
         .card p{
-            font-size: 12px;
-    font-weight: 200;
+            font-size: 13px;
+    font-weight: 300;
     color: black;
         }
         .button {
@@ -118,6 +120,63 @@
     font-weight: bold;
     color: #324973;
 }
+
+.card.document-info {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 20px;
+    color: #2c3e50;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.section-divider::before,
+.section-divider::after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid #324973;
+    margin: 0 10px;
+}
+
+.sub-card {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: white;
+}
+
+.sub-card p {
+    margin: 10px 0;
+    font-size: 14px;
+    margin-top:3px;
+}
+
+.sub-card strong {
+    color: #324973;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom:3px;
+}
+
 
 
     
