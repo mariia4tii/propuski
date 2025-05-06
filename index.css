@@ -86,22 +86,24 @@
         .table th {
             border: 1px solid #ddd;
             background-color: #FAFAFA;
-            padding: 8px;
+            padding: 15px;
             text-align: center;
             font-size: 14px;
     font-weight: 600;
     color: #324973;
     width: 20px;
+    height:30px
         }
         .table td {
             background-color: white;
             
-            padding: 8px;
+            padding: 15px;
             text-align: center;
             font-size: 14px;
     font-weight: 300;
     color: black;
     width: 20px;
+    height:30px
         }
         .scroll-table {
     overflow-x: auto;
@@ -162,7 +164,7 @@
     border-radius: 6px;
     padding: 15px;
     background-color: white;
-    margin-bottom:10px;
+    margin-bottom:15px;
 }
 
 .sub-card p {
